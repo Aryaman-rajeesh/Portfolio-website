@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────
+   GLOBAL BASE STYLES
+   ───────────────────────────────────────────── */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-ink-950 antialiased transition-colors duration-500;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Dark mode is the default aesthetic — applied when .dark is on <html> */
+  .dark body {
+    @apply bg-ink-950 text-paper-50;
+  }
+
+  /* Custom scrollbar — thin and minimal */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-paper-300/30 dark:bg-ink-700;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-paper-300/50 dark:bg-ink-700;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   REUSABLE UTILITIES
+   ───────────────────────────────────────────── */
+
+@layer utilities {
+  /* Tracked-out small caps label, used for "kicker" text above headlines */
+  .kicker {
+    @apply text-xs uppercase tracking-kicker font-medium;
+  }
+
+  /* Subtle gradient text for accents */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, currentColor 0%, currentColor 50%, rgba(255,255,255,0.5) 100%);
+  }
+
+  /* The large editorial serif headline */
+  .headline-serif {
+    @apply font-serif font-light leading-[1.1];
+  }
+
+  /* Massive bold list typography for project names */
+  .mega-text {
+    @apply font-sans font-bold leading-[0.95] tracking-tight;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   LIGHT MODE GLOBAL OVERRIDES
+   Forces text and cards to invert when dark mode is off
+═══════════════════════════════════════════════════════════ */
+
+/* 1. Force the main background to white */
+html:not(.dark) body {
+  background-color: #b1b1b1 !important;
+}
+
+/* 2. Make all main headings and bright text dark */
+html:not(.dark) .text-paper-50 {
+  color: #171717 !important; 
+}
+
+/* 3. Make the animated underline on links dark */
+html:not(.dark) .bg-paper-50 {
+  background-color: #171717 !important; 
+}
+
+/* 4. Catch ALL subtle text (subtitles, kickers) and make them gray */
+html:not(.dark) [class*="text-paper-300"] {
+  color: #525252 !important; 
+}
+
+/* 5. Catch all dark UI cards (like your PDF boxes) and turn them light gray */
+html:not(.dark) [class*="bg-ink-"] {
+  background-color: #f5f5f5 !important; 
+}
+
+/* 6. Darken the subtle borders so they are visible on a white background */
+html:not(.dark) [class*="border-paper-300"] {
+  border-color: #e5e5e5 !important; 
+}
