@@ -41,11 +41,7 @@ export default function Footer() {
           <span className="absolute left-0 -bottom-1 h-px w-full bg-paper-50 origin-left scale-x-0 transition-transform duration-500 ease-out group-hover:scale-x-100" />
         </MagneticButton>
 
-        {/* Personal hook */}
-        <p className="text-base md:text-lg text-paper-300/70 dark:text-paper-300/60 max-w-2xl mb-20 font-light leading-relaxed">
-          Fascinated by behavioral psychology and game design? Let&apos;s talk mechanics.
-        </p>
-
+    
         {/* Divider */}
         <div className="w-full h-px bg-paper-300/10 mb-8" />
 
