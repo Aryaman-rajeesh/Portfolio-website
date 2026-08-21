@@ -44,10 +44,10 @@ export default function AboutPage() {
               I&apos;m Aryaman, a designer and developer based in Mumbai working at the intersection of physical products, immersive technology, and software systems. My practice spans UI/UX prototyping, CAD modeling, spatial design, and full-stack development.
             </p>
             <p>
-              What drives me is the translation of deep research into tangible experiences — whether that&apos;s an ergonomically reimagined power bank, a VR ecosystem for public speaking confidence, or a cleaner government portal. I believe the best design is invisible: it removes friction so completely that the user only notices the outcome.
+              What drives me is the translation of deep research into tangible experiences whether that&apos;s an ergonomically reimagined power bank, a VR ecosystem for public speaking confidence, or a cleaner government portal. I believe the best design is invisible: it removes friction so completely that the user only notices the outcome.
             </p>
             <p>
-              I&apos;m equally comfortable in Unity, Figma, Fusion 360, and React. I care about the entire pipeline — from foam prototypes to final pixel — and I obsess over the details that make a product feel finished.
+              I&apos;m equally comfortable in Unity, Figma, Fusion 360, and React. I care about the entire pipeline from foam prototypes to final pixel and I obsess over the details that make a product feel finished.
             </p>
           </div>
         </Reveal>
