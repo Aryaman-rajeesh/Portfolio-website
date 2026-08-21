@@ -40,7 +40,7 @@ export default function HomePage() {
 
           {/* Bio — clean sans-serif, generous line height */}
           <p className="text-base md:text-lg lg:text-xl text-paper-300/80 dark:text-paper-300/70 max-w-2xl font-light leading-relaxed">
-            I work across UI/UX prototyping, CAD modeling, software development, and spatial design. Based in Mumbai, my portfolio brings together physical wellness hardware, immersive VR, and custom systems where deep research meets technical execution.
+            I work as a multi-disciplinary designer specializing in UI/UX prototyping, CAD modeling, software development, and spatial design. Based in Mumbai, my portfolio brings together physical wellness hardware, immersive VR, and custom systems where deep research meets technical execution.
           </p>
         </motion.div>
         </div>
