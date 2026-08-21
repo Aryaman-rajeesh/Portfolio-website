@@ -27,7 +27,7 @@ export default function Footer() {
 
         {/* Large serif headline */}
         <h2 className="headline-serif text-5xl md:text-7xl text-paper-50 mb-12 max-w-3xl">
-          Let&apos;s build something impactful.
+          Let&apos;s work to build something impactful.
         </h2>
 
         {/* Email as primary action — magnetic pull + animated underline */}
