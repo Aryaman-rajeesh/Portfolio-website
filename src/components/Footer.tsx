@@ -1,16 +1,4 @@
-/**
- * ═══════════════════════════════════════════════════════════════
- *  Footer — Global spacious footer with particle pool
- * ═══════════════════════════════════════════════════════════════
- *
- *  - Kicker: "GET IN TOUCH"
- *  - Headline: "Let's build something impactful." (serif)
- *  - Primary action: email with animated underline hover
- *  - Personal hook line about behavioral psychology & game design
- *  - Divider line
- *  - Bottom row: © 2026 Aryaman (left) | phone, LinkedIn, GitHub, Resume (right)
- *  - 3D particle system pooled at the bottom (reuses ParticleField)
- */
+
 
 import { Link } from 'react-router-dom';
 import { ArrowDown, Linkedin, Github, Phone } from 'lucide-react';
