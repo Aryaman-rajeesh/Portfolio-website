@@ -24,7 +24,7 @@ export default function HomePage() {
          ════════════════════════════════════════════════════════ */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         {/* 3D particle node-mesh — reacts to cursor movement */}
-        <ParticleField density={500} color="#ffffff23" opacity={0.4} />
+        <ParticleField density={500} color="#ffffff23" opacity={0.2} />
 
         {/* Hero content — centered, max width for readability */}
         <div className="relative z-10 mx-auto max-w-[1600px] px-6 md:px-10 w-full">
