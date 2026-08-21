@@ -30,7 +30,7 @@ export default function AboutPage() {
       {/* Header */}
       <Reveal>
         <p className="kicker text-paper-300/50 mb-6">About</p>
-        <h1 className="headline-serif text-5xl md:text-7xl lg:text-8xl text-paper-50 mb-12 max-w-4xl">
+        <h1 className="headline-serif text-3xl md:text-5xl lg:text-6xl text-paper-50 mb-12 max-w-4xl">
           A multi-disciplinary designer & builder.
         </h1>
       </Reveal>
