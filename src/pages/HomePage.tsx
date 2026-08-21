@@ -35,7 +35,7 @@ export default function HomePage() {
           >
           {/* Headline — large elegant serif */}
           <h2 className="headline-serif text-6xl md:text-7xl lg:text- 7xl text-paper-50 mb-8 max-w-4xl">
-            Hello, I&apos;m Aryaman.
+          I&apos;m Aryaman.
           </h2>
 
           {/* Bio — clean sans-serif, generous line height */}
